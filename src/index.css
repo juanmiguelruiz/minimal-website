@@ -57,14 +57,17 @@ strong {
 
 .footer {
   position: absolute;
-  bottom: 0%;
-  left: 25%;
-  right: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
   padding: 5% 0%;
 }
 
 .footer__cv {
   position: relative;
+  margin: 0 auto;
   padding: 5%;
 }
 
@@ -329,6 +332,10 @@ strong {
     font-size: 25px;
   }
 
+  .home__hello {
+    font-size: 1.3em;
+  }
+
   .experience__job__company {
     font-size: 1.3em;
   }
@@ -396,6 +403,10 @@ strong {
     font-size: 1.1em;
   }
 
+  .home__hello {
+    font-size: 1.6em;
+  }
+
   .header__info__name {
     font-size: 1.5em;
   }
@@ -405,11 +416,11 @@ strong {
   }
 
   .footer__made {
-    font-size: 1.1em;
+    font-size: 1.3em;
   }
 
   .footer__link {
-    font-size: 1.1em;
+    font-size: 1.3em;
   }
 
   .logo__container {
