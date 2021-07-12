@@ -12,7 +12,7 @@ const Education = () => {
           image={us}
           university="Universidad de Sevilla"
           degree="Computer Engineering-Software Engineering Degree"
-          location="Seville"
+          location="Sevilla"
           date="2014-2020"
         />
         
