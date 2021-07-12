@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const Job = ({image, company, position, date, location}) =>{
     return (
-        <div className="col s12 m6 experience__job">
+        <div className="col s12 m4 experience__job">
             <img className="experience__job__image" src={image} alt="company_image"/>
             <p className="experience__job__company">{company}</p>
             <p className="experience__job__position">{position}</p>
