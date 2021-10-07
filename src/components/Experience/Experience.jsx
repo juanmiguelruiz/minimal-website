@@ -13,8 +13,8 @@ const Experience = () => {
           image={sixphere}
           company="Sixphere"
           position="Software Engineer"
-          location="Dos Hermanas, Sevilla"
-          date="Since July 2021"
+          location="Sevilla"
+          date="July 2021 - October 2021"
         />
         <Job
           image={everis}
