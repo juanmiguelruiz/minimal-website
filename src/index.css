@@ -33,6 +33,7 @@ strong {
   width: 110px;
   display: flex;
   margin: 0 auto;
+  object-fit: contain;
 }
 
 .experience__job__company {

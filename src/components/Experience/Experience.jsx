@@ -4,11 +4,20 @@ import Job from "./Job";
 import everis from "../../assets/img/everis.png";
 import oesia from "../../assets/img/oesia.png";
 import sixphere from "../../assets/img/sixphere.png";
+import cover from "../../assets/img/covermanager.png";
+
 
 const Experience = () => {
   return (
     <div className="row">
         <p className="title">Experience</p>
+        <Job
+          image={cover}
+          company="CoverManager"
+          position="Fontend Developer"
+          location="Sevilla"
+          date="Since November 2021"
+        />
         <Job
           image={sixphere}
           company="Sixphere"
@@ -26,10 +35,12 @@ const Experience = () => {
         <Job
           image={oesia}
           company="Grupo Oesía"
-          position="Software developer (Internship)"
+          position="Software Developer (Internship)"
           location="Sevilla"
           date="July 2020 - November 2020"
         />
+
+
       </div>
 
   );

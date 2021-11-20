@@ -6,7 +6,7 @@ import Header from "../../components/Header";
 
 const CvPage = () => {
   return (
-    <div>
+    <>
     <div className="container">
       <Header />
       <hr/>
@@ -32,7 +32,7 @@ const CvPage = () => {
         </div>
     </footer>
 
-    </div>
+    </>
   );
 };
 
