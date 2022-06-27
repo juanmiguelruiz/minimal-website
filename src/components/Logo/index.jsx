@@ -1,11 +1,12 @@
 import React from "react";
+import * as Styled from "./styles";
 
-const Logo = () => {
-  return (
-    <div className="center logo__container">
-      <span className="gradient-border">JM</span>
-    </div>
-  );
-};
+const Logo = () => (
+  <Styled.Container>
+    <Styled.Logo to="/">
+      <Styled.Content>JM</Styled.Content>
+    </Styled.Logo>
+  </Styled.Container>
+);
 
 export default Logo;

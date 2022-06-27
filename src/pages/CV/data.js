@@ -1,8 +1,9 @@
-import Oesia from "../../assets/img/oesia.png";
-import Everis from "../../assets/img/everis.png";
-import Sixphere from "../../assets/img/sixphere.png";
-import CoverManager from "../../assets/img/covermanager.png";
-import TaxDown from "../../assets/img/taxdown.png";
+import Oesia from "../../assets/images/oesia.png";
+import Everis from "../../assets/images/everis.png";
+import Sixphere from "../../assets/images/sixphere.png";
+import CoverManager from "../../assets/images/covermanager.png";
+import TaxDown from "../../assets/images/taxdown.png";
+import US from "../../assets/images/us.png";
 
 export const jobs = [
   {
@@ -17,7 +18,7 @@ export const jobs = [
     company: "CoverManager",
     position: "Fontend Developer",
     location: "Sevilla",
-    date: "Since November 2021",
+    date: "November 2021 - April 2022",
   },
   {
     image: Sixphere,
@@ -39,5 +40,15 @@ export const jobs = [
     position: "Software Developer (Internship)",
     location: "Sevilla",
     date: "July 2020 - November 2020",
+  },
+];
+
+export const education = [
+  {
+    image: US,
+    company: "Universidad de Sevilla",
+    position: "Computer Engineering-Software Engineering Degree",
+    location: "Sevilla",
+    date: "2014-2020",
   },
 ];

@@ -1,9 +1,11 @@
-import React from 'react';
+import React from "react";
+import PropTypes from "prop-types";
+import * as Styled from "./styles";
 
-import avatar from '../../assets/img/avatar.jpg'
+const Avatar = ({ img }) => <Styled.Avatar src={img} alt={img} />;
 
-const Avatar = () =>{
-    return <img src={avatar} alt="" className="center avatar"/>;
-}
+Avatar.propTypes = {
+  img: PropTypes.string.isRequired,
+};
 
 export default Avatar;
