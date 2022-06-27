@@ -6,19 +6,19 @@ const AboutMe = () => {
   return (
     <div className="col s12">
       <p className="home__hello">
-        Hi! I'm Juanmi, front-end engineer. I love <strong>designing</strong> and{" "}
-        <strong>creating</strong> websites.
+        Hi! I'm Juanmi, front-end engineer. I love <strong>designing</strong>
+        and <strong>creating</strong> websites.
       </p>
       <p className="home__hello">
-        Follow me on{" "}
+        {`Follow me on `}
         <a href="https://github.com/juanmiguelruiz/" title="github">
-          <FontAwesomeIcon className="about__icon" icon={faGithub} /> 
+          <FontAwesomeIcon className="about__icon" icon={faGithub} />
         </a>
-        {" "} and {" "}
+        {` and `}
         <a href="https://www.linkedin.com/in/juanmiguelruiz/" title="linkedin">
           <FontAwesomeIcon className="about__icon" icon={faLinkedin} />
         </a>
-        {" "} or if you prefer check my{" "}
+        {` or if you prefer check my `}
         <a className="link" href="/CV">
           CV
         </a>

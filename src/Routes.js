@@ -1,17 +1,16 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Routes as ReactRoutes, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage";
-import CvPage from "./pages/CvPage"
-
+import CvPage from "./pages/CvPage";
 
 const Routes = () => {
   return (
-    <Router>
-      <Switch>
-        <Route exact path="/" component={HomePage} />
-        <Route path="/cv" component={CvPage} />
-      </Switch>
-    </Router>
+    <BrowserRouter>
+      <ReactRoutes>
+        <Route exact path="/" element={<HomePage />} />
+        <Route path="/cv" element={<CvPage />} />
+      </ReactRoutes>
+    </BrowserRouter>
   );
 };
 

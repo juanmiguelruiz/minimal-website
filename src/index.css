@@ -31,9 +31,11 @@ strong {
 
 .experience__job__image {
   width: 110px;
+  max-height: 95px;
   display: flex;
   margin: 0 auto;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .experience__job__company {
@@ -180,7 +182,14 @@ strong {
   background-size: 300% 300%;
   background-position: 0 50%;
   border-radius: calc(2 * 3px);
-  animation: moveGradient 4s alternate infinite;
+  -webkit-animation: moveGradient 4s alternate infinite;
+          animation: moveGradient 4s alternate infinite;
+}
+
+@-webkit-keyframes moveGradient {
+  50% {
+    background-position: 100% 50%;
+  }
 }
 
 @keyframes moveGradient {
@@ -382,7 +391,6 @@ strong {
   .avatar {
     width: 100px;
     height: 100px;
-  
   }
 
   .container {
