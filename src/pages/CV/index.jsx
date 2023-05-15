@@ -1,4 +1,3 @@
-import React from "react";
 import { Header, Section } from "./components";
 import { jobs, education } from "./data";
 import * as Styled from "./styles";

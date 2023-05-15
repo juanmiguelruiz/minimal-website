@@ -1,14 +1,15 @@
 import PropTypes from "prop-types";
 import * as Styled from "./styles";
 
-const SocialLink = ({ link, icon, className }) => (
-  <a className={className} href={link}>
-    <Styled.Icon icon={icon} />
+const SocialLink = ({link, icon, className}) => (
+  <a href={link} target="_blank" className={className} rel="noreferrer">
+    <Styled.Icon src={icon} alt="icon" />
   </a>
 );
 
 SocialLink.propTypes = {
-  link: PropTypes.string,
+  link: PropTypes.string.isRequired,
+  icon: PropTypes.string.isRequired,
   className: PropTypes.string,
 };
 

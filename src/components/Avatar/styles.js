@@ -5,5 +5,5 @@ export const Avatar = styled.img`
   height: 90px;
   border-radius: 50%;
   display: flex;
-  margin: 2rem auto;
+  margin: 32px auto;
 `;

@@ -4,7 +4,7 @@ export const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  margin: 1rem 0;
+  margin: 16px 0;
   justify-content: center;
 
   @media (min-width: 1024px) {
@@ -13,6 +13,6 @@ export const Container = styled.div`
 `;
 
 export const Title = styled.p`
-  font-size: 1.5em;
+  font-size: 24px;
   font-weight: bold;
 `;

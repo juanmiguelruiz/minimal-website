@@ -1,4 +1,3 @@
-import React from "react";
 import PropTypes from "prop-types";
 import * as Styled from "./styles";
 
@@ -11,7 +10,7 @@ const Information = ({ name, position, email }) => (
 );
 
 Information.propTypes = {
-  name: PropTypes.string,
+  name: PropTypes.string.isRequired,
   position: PropTypes.string,
   email: PropTypes.string,
 };

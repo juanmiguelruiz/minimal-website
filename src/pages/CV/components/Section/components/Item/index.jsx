@@ -1,4 +1,3 @@
-import React from "react";
 import PropTypes from "prop-types";
 import * as Styled from "./styles";
 
@@ -10,24 +9,24 @@ const Job = ({ image, company, position, date, location }) => (
       src={image}
       alt="company_image"
     />
-    <Styled.JobInfo size="1.2" fontWeight="bold">
+    <Styled.JobInfo size="20" fontWeight="bold">
       {company}
     </Styled.JobInfo>
-    <Styled.JobInfo size="1.1" fontWeight="normal">
+    <Styled.JobInfo size="18" fontWeight="normal">
       {position}
     </Styled.JobInfo>
-    <Styled.JobInfo size="1" fontWeight="normal" color="#a8a8a8">
+    <Styled.JobInfo size="16" fontWeight="normal" color="#a8a8a8">
       {date}
     </Styled.JobInfo>
-    <Styled.JobInfo size="1" fontWeight="normal" color="#a8a8a8">
+    <Styled.JobInfo size="14" fontWeight="normal" color="#a8a8a8">
       {location}
     </Styled.JobInfo>
   </Styled.Job>
 );
 
 Job.propTypes = {
-  image: PropTypes.string,
-  company: PropTypes.string,
+  company: PropTypes.string.isRequired,
+  image: PropTypes.string.isRequired,
   position: PropTypes.string,
   date: PropTypes.string,
   location: PropTypes.string,

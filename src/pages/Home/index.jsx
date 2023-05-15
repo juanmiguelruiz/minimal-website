@@ -1,6 +1,6 @@
-import React from "react";
 import { Footer, Logo } from "../../components";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import GitHub from "../../assets/images/github.svg";
+import LinkedIn from "../../assets/images/linkedin.svg";
 import * as Styled from "./styles";
 
 const Home = () => (
@@ -16,12 +16,12 @@ const Home = () => (
           Follow me on
           <Styled.Icon
             link="https://github.com/juanmiguelruiz/"
-            icon={faGithub}
+            icon={GitHub}
           />
           and
           <Styled.Icon
             link="https://www.linkedin.com/in/juanmiguelruiz/"
-            icon={faLinkedin}
+            icon={LinkedIn}
           />
           or if you prefer check my
           <Styled.Link to="/CV">CV</Styled.Link>

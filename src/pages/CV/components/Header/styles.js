@@ -2,18 +2,18 @@ import styled from "styled-components";
 import { SocialLink } from "../../../../components";
 
 export const Header = styled.header`
-  margin: 3rem 0;
+  margin: 48px 0;
 `;
 
 export const IconContainer = styled.div`
   text-align: center;
-  padding: 1rem 2rem;
+  padding: 16px 32px;
 `;
 
 export const Icon = styled(SocialLink)`
-  margin: 0.5rem;
+  margin: 8px;
 
   svg {
-    font-size: 1.5rem;
+    font-size: 24px;
   }
 `;

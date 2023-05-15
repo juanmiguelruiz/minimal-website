@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const Container = styled.div`
-  margin: 5rem 0;
+  margin: 80px 0;
   position: relative;
   display: flex;
   justify-content: center;
@@ -16,7 +16,6 @@ export const Logo = styled(Link)`
 export const Content = styled.span`
   position: relative;
   display: flex;
-  margin-right: ;
   justify-content: center;
   align-items: center;
   width: 80px;

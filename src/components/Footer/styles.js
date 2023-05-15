@@ -8,7 +8,7 @@ export const Footer = styled.footer`
   left: 0;
   right: 0;
   bottom: 0;
-  padding: 5%;
+  padding: 16px;
 `;
 
 export const Content = styled.div`
@@ -23,6 +23,6 @@ export const Links = styled.div`
 `;
 
 export const Link = styled(ReactLink)`
-  margin: 0 0.2rem;
+  margin: 0 4px;
   text-decoration: none;
 `;

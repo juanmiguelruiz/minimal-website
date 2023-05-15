@@ -1,8 +1,8 @@
-import React from "react";
 import { Information } from "./components/";
 import { Avatar, Logo } from "../../../../components";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import avatar from "../../../../assets/images/avatar.jpg";
+import github from "../../../../assets/images/github.svg";
+import linkedin from "../../../../assets/images/linkedin.svg";
 import * as Styled from "./styles";
 
 const Header = () => (
@@ -15,10 +15,10 @@ const Header = () => (
       email="juanmiguelruizpazoswork@gmail.com"
     />
     <Styled.IconContainer>
-      <Styled.Icon link="https://github.com/juanmiguelruiz/" icon={faGithub} />
+      <Styled.Icon link="https://github.com/juanmiguelruiz/" icon={github} />
       <Styled.Icon
         link="https://www.linkedin.com/in/juanmiguelruiz/"
-        icon={faLinkedin}
+        icon={linkedin}
       />
     </Styled.IconContainer>
   </Styled.Header>
